@@ -17,5 +17,6 @@ function handleSubmit(event) {
     };
     console.log(formRezultObj);
     form.reset();
+    return formRezultObj;
   }
 }
